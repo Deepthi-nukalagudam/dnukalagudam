@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "Alice",
+      "affiliation": "USA"
+    },
+    {
+      "id": "Bob",
+      "affiliation": "UK"
+    },
+    {
+      "id": "Carol",
+      "affiliation": "China"
+    },
+    {
+      "id": "Dan",
+      "affiliation": "USA"
+    },
+    {
+      "id": "Eve",
+      "affiliation": "Germany"
+    },
+    {
+      "id": "Frank",
+      "affiliation": "India"
+    },
+    {
+      "id": "Grace",
+      "affiliation": "USA"
+    },
+    {
+      "id": "Heidi",
+      "affiliation": "UK"
+    },
+    {
+      "id": "Ivan",
+      "affiliation": "Russia"
+    },
+    {
+      "id": "Judy",
+      "affiliation": "Canada"
+    },
+    {
+      "id": "Mallory",
+      "affiliation": "Brazil"
+    },
+    {
+      "id": "Niaj",
+      "affiliation": "France"
+    },
+    {
+      "id": "Olivia",
+      "affiliation": "USA"
+    },
+    {
+      "id": "Peggy",
+      "affiliation": "India"
+    },
+    {
+      "id": "Trent",
+      "affiliation": "China"
+    }
+  ],
+  "links": [
+    {
+      "source": "Alice",
+      "target": "Bob"
+    },
+    {
+      "source": "Alice",
+      "target": "Carol"
+    },
+    {
+      "source": "Bob",
+      "target": "Dan"
+    },
+    {
+      "source": "Carol",
+      "target": "Eve"
+    },
+    {
+      "source": "Dan",
+      "target": "Eve"
+    },
+    {
+      "source": "Eve",
+      "target": "Frank"
+    },
+    {
+      "source": "Frank",
+      "target": "Grace"
+    },
+    {
+      "source": "Grace",
+      "target": "Heidi"
+    },
+    {
+      "source": "Heidi",
+      "target": "Ivan"
+    },
+    {
+      "source": "Ivan",
+      "target": "Judy"
+    },
+    {
+      "source": "Judy",
+      "target": "Mallory"
+    },
+    {
+      "source": "Mallory",
+      "target": "Niaj"
+    },
+    {
+      "source": "Niaj",
+      "target": "Olivia"
+    },
+    {
+      "source": "Olivia",
+      "target": "Peggy"
+    },
+    {
+      "source": "Peggy",
+      "target": "Trent"
+    },
+    {
+      "source": "Trent",
+      "target": "Alice"
+    },
+    {
+      "source": "Bob",
+      "target": "Heidi"
+    },
+    {
+      "source": "Alice",
+      "target": "Grace"
+    },
+    {
+      "source": "Dan",
+      "target": "Olivia"
+    },
+    {
+      "source": "Peggy",
+      "target": "Frank"
+    }
+  ]
+}
